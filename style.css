@@ -1,0 +1,96 @@
+.image{
+    width:200px;
+    animation-name: pad 3s infinite;
+    transition: 10s all linear;
+    opacity: 0.5px;
+    z-index: 2;
+   
+    }
+    
+    .heading{text-align: center;
+    font-size: 3rem;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-bottom: 1.5rem;
+padding: 1em;
+text-shadow: 3px 4px 5px gray;}
+    
+
+    .cards{display: flex;
+    justify-content: center;
+flex-wrap: wrap;
+}
+    
+    .card{display: flex;
+        justify-content: space-between;
+       width: 30%;
+      
+        grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    border: none;
+    margin: 40px;
+    border: 1px pink;
+    box-shadow: 6px 3px 9px 3px hsl(0, 2%, 50%);
+    padding: 1.5rem;
+    text-align: center;
+    margin-bottom: 2em;
+    }
+    .title{font-size: 1.3rem;}
+    
+    
+    
+    .cards{display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        animation-name: pad;
+        transition: 2s all linear;
+    grid-template-columns: auto auto;}
+    card-title{font-weight: 300;
+    color: #888;
+    font-size: 4em;
+    
+    }
+    .price{color: red;
+        font-weight: bold;
+        text-transform: capitalize;
+        margin: 1em;
+        font-size: 1.2rem;
+    animation: color1 1s linear infinite;
+    }
+    .rating-rate{color:rgb(236, 226, 34);
+        width: 240px;
+       padding: 20px;
+        animation: pad 1s all linear infinite;
+   
+}
+    
+    @keyframes color1{
+    
+    0% {color:rgb(58, 58, 119)}
+    50% {color: rgb(201, 40, 137);}
+    100% {color:rgb(255, 0, 0)}
+    
+    
+    
+    }
+ 
+    
+    @keyframes pad{
+    
+    0%{color:#333}
+    100%{color: #888;}
+    }
+    
+    
+    h2{text-shadow: 2px 1px 0px rgb(227, 213, 250);}
+    .card-title{color:darkolivegreen ;padding: 60px;margin: 100px;}
+    .category{color:rgb(209, 79, 79);}
+    .rating-count{color:rgb(48, 154, 166);}
+    .heading{text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: #333;
+text-shadow: 8px 5px 8px 10px gray;
+}
+.category{color:rgb(135, 135, 230)}
